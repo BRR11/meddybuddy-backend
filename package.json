@@ -2,11 +2,11 @@
   "name": "meddybuddy-backend",
   "version": "1.0.0",
   "description": "Backend for MeddyBuddy E-Commerce",
-  "main": "backend/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js"
-  },
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+},
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
